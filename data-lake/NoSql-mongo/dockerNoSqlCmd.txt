@@ -1,0 +1,68 @@
+rm -rf .git
+
+git init --initial-branch=main
+git remote add origin https://gitlab.com/tw8774529/bank-nosql-api.git
+git add .
+git commit -m "Initial commit"
+git push --set-upstream origin main
+
+##########################
+docker run -v /Users/tao.wang/git/roman-num-mongo:/roman-num-mongo --name rn-mongo eclipse/debian_jdk8
+docker run -v /Users/tao.wang/git/J8Feat:/J8Feat --name j8feat eclipse/debian_jdk8
+
+
+http://localhost:8079/mongo/hashtable/add/1
+http://localhost:8079/mongo/hashtable
+http://localhost:8079/mongo/hashtable/last
+
+docker commit 2cbb397b5add registry.gitlab.com/viraree/roman-num-mongo
+docker run -v /Users/tao.wang/git/roman-num-mongo:/roman-num-mongo --name rn-mongo eclipse/debian_jdk8
+
+docker run -v /Users/tao.wang/git/fsn-roman-num-mongo:/fsn-roman-num-mongo --name fsn-rn-mongo registry.gitlab.com/viraree/roman-num-mongo
+
+
+docker run -v /Users/tao.wang/git/fullstack-nosql:/fullstack-nosql --name fullstack-nosql registry.gitlab.com/viraree/roman-num-mongo
+
+docker commit 2cbb397b5add registry.gitlab.com/tw8774529/fullstack-nosql
+docker push registry.gitlab.com/tw8774529/fullstack-nosql
+
+docker run -v /Users/tao.wang/git/fullstack-nosql:/fullstack-nosql --name fullstack-nosql eclipse/debian_jdk8
+docker run -v /Users/tao.wang/git/fullstack-nosql:/fullstack-nosql --name fullstack-nosql registry.gitlab.com/tw8774529/fullstack-nosql
+
+mvn clean package -Dmaven.test.skip
+
+java -jar FullstackNoSql-0.0.1-SNAPSHOT.jar
+
+docker commit fsn-rn-mongo registry.gitlab.com/tw8774529/fullstack-nosql
+docker push registry.gitlab.com/tw8774529/fullstack-nosql
+
+docker commit fsn-rn-mongo registry.gitlab.com/tw8774529/nosql-embed-fullstack
+docker push registry.gitlab.com/tw8774529/fullstack-nosql                    
+
+###############################################################################
+http://localhost:8989/#/login?redirect=%2Fdashboard%2Fservers
+admin
+mariadb
+
+http://localhost:3000/
+
+docker exec -it mdb mariadb --user root -p
+
+docker commit todo_api registry.gitlab.com/tw8774529/bank-nosql-api
+docker push registry.gitlab.com/tw8774529/bank-nosql-api
+
+docker run -d -p 3030:3030 -v /Users/tao.wang/git/bank-nosql-api:/bank-nosql-api --name bank-nosql-api registry.gitlab.com/tw8774529/bank-nosql-api
+
+docker commit bank-nosql-api registry.gitlab.com/tw8774529/bank-nosql-api
+docker push registry.gitlab.com/tw8774529/bank-nosql-api    
+
+
+
+
+###############################################################################
+/usr/bin/python3 -m pip install numpy 
+/usr/bin/python3 -m pip install -r requirements.txt
+/usr/bin/python3 admin-app.py
+docker run -d -p 3050:8000 -v /Users/tao.wang/git/bank-admin-client:/bank-admin-client --name bank-admin-client bitnami/python:3.9-debian-11
+
+docker exec -it bts-mongo mongosh

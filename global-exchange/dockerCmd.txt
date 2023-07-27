@@ -1,0 +1,3 @@
+docker build -t global-exchange .
+docker run -d -p 3100:3100 -v /Users/tao.wang/git/bank-transaction-services/global-exchange:/global-exchange --name global-exchange global-exchange
+docker exec -it global-exchange bash

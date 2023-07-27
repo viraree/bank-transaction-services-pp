@@ -1,0 +1,9 @@
+package com.banksvc;
+
+import org.springframework.test.web.servlet.MockMvc;
+
+
+@WebMvcTest
+public class BankOAuthJWTtests {
+
+}

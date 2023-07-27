@@ -1,0 +1,10 @@
+/Users/tao.wang/git/bank-transaction-services/jwt-OAuth-OpenAPI/src/main/java/com/banksvc/model/JwtRequest.java
+/Users/tao.wang/git/bank-transaction-services/jwt-OAuth-OpenAPI/src/main/java/com/banksvc/SpringBootHelloWorldApplication.java
+/Users/tao.wang/git/bank-transaction-services/jwt-OAuth-OpenAPI/src/main/java/com/banksvc/model/JwtResponse.java
+/Users/tao.wang/git/bank-transaction-services/jwt-OAuth-OpenAPI/src/main/java/com/banksvc/config/JwtTokenUtil.java
+/Users/tao.wang/git/bank-transaction-services/jwt-OAuth-OpenAPI/src/main/java/com/banksvc/service/JwtUserDetailsService.java
+/Users/tao.wang/git/bank-transaction-services/jwt-OAuth-OpenAPI/src/main/java/com/banksvc/config/WebSecurityConfig.java
+/Users/tao.wang/git/bank-transaction-services/jwt-OAuth-OpenAPI/src/main/java/com/banksvc/config/JwtAuthenticationEntryPoint.java
+/Users/tao.wang/git/bank-transaction-services/jwt-OAuth-OpenAPI/src/main/java/com/banksvc/controller/HelloWorldController.java
+/Users/tao.wang/git/bank-transaction-services/jwt-OAuth-OpenAPI/src/main/java/com/banksvc/config/JwtRequestFilter.java
+/Users/tao.wang/git/bank-transaction-services/jwt-OAuth-OpenAPI/src/main/java/com/banksvc/controller/JwtAuthenticationController.java

@@ -1,0 +1,23 @@
+version: "3"
+services:
+ 
+  repo-api:
+   # build: ./bts-repo-api
+    #image: bts-repo-api
+    image: registry.gitlab.com/tw8774529/bank-nosql-api
+    hostname: 'bts-repo-api'
+    container_name: 'bts-repo-api'
+    links:
+      - "repo"
+    ports:
+      - 2030:3030
+
+  repo:
+    image: mongo
+    hostname: 'bts-mongo'
+    container_name: 'bts-mongo'
+    ports:
+      - 2017:27017
+    
+    
+  
