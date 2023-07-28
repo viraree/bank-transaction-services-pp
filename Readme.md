@@ -1,6 +1,6 @@
 ### Design and Implentatation Document
 
-![BankTransactionServices-DesignAndImplentatation.docx](https://github.com/viraree/bank-transaction-services-pp/blob/main/BankTransactionServices-DesignAndImplentatation.docx)
+![BankTransactionServices-DesignAndImplentatation.docx](https://github.com/viraree/bank-transaction-services-pp/raw/main/BankTransactionServices-DesignAndImplentatation.docx)
 
 ### Architecture Diagram
 
