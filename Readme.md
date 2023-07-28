@@ -1,13 +1,13 @@
-### Documentation
+### Documentations
 
-[Design and Implentatation](https://github.com/viraree/bank-transaction-services-pp/raw/main/BankTransactionServices-DesignAndImplentatation.docx)
-
-[Solution](https://github.com/viraree/bank-transaction-services-pp/raw/main/Solution-TransactionPaginationRest.docx)
+[BankTransactionServices-DesignAndImplentatation.docx](https://github.com/viraree/bank-transaction-services-pp/raw/main/BankTransactionServices-DesignAndImplentatation.docx)
+[Solution-TransactionPaginationRest.docx](https://github.com/viraree/bank-transaction-services-pp/raw/main/Solution-TransactionPaginationRest.docx)
+[SpringMongoRestAPI.docx.docx](https://github.com/viraree/bank-transaction-services-pp/raw/main/SpringMongoRestAPI.docx)
+[SpringSecurityRestAPI.docx](https://github.com/viraree/bank-transaction-services-pp/raw/main/SpringSecurityRestAPI.docx)
 
 ### Architecture Diagram
 
 ![BankTransactionServices-DesignAndImplentatation.docx](https://github.com/viraree/bank-transaction-services-pp/blob/main/misc/ArchDiagram-light.jpg)
-
 
 
 in response to 
