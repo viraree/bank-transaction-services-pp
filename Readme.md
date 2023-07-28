@@ -1,8 +1,11 @@
 ### Documentations
 
 [BankTransactionServices-DesignAndImplentatation.docx](https://github.com/viraree/bank-transaction-services-pp/raw/main/BankTransactionServices-DesignAndImplentatation.docx)
+
 [Solution-TransactionPaginationRest.docx](https://github.com/viraree/bank-transaction-services-pp/raw/main/Solution-TransactionPaginationRest.docx)
+
 [SpringMongoRestAPI.docx.docx](https://github.com/viraree/bank-transaction-services-pp/raw/main/SpringMongoRestAPI.docx)
+
 [SpringSecurityRestAPI.docx](https://github.com/viraree/bank-transaction-services-pp/raw/main/SpringSecurityRestAPI.docx)
 
 ### Architecture Diagram
